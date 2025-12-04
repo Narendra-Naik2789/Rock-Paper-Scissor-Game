@@ -24,42 +24,11 @@ A clean and simple implementation of the classic Rock–Paper–Scissor game. Bu
 - **CSS** for layout and styling  
 - **JavaScript** for game logic  
 
-## 📁 Project Structure
-project/
-├── index.html
-├── style.css
-├── script.js
-└── assets/
-└── images/icons (optional)
-
-
 ## 🚀 How to Run
 Clone the repository:
 
 ```sh
 git clone https://github.com/<your-username>/Rock-Paper-Scissor-Game.git
+```
 
-Open index.html in any browser and start playing.
-No dependencies needed.
-
-📌 Possible Improvements
-
-Add sound effects
-
-Add animations for moves
-
-Add difficulty levels
-
-Add dark mode
-
-Add keyboard shortcuts
-
-Add online multiplayer
-
-📄 License
-
-This project is released under the MIT License
-
----
-
-If you want a more stylish version (icons, GIF previews, badges, screenshots), tell me and I’ll upgrade it.
+sh version (icons, GIF previews, badges, screenshots), tell me and I’ll upgrade it.
