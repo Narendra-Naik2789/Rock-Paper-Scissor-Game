@@ -1,0 +1,166 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.box {
+  height: 60%;
+  width: 50%;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box h2 {
+  font-family: "Montserrat", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.box h3 {
+  font-family: "Source Sans Pro", "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+  font-weight: 600;
+}
+
+.choices {
+  height: 60%;
+  width: 90%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 140px; */
+}
+
+#box1,
+#box2 {
+  height: 95%;
+  width: 40%;
+  /* border: 1px solid red; */
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgVS {
+  height: 90%;
+  width: 30%;
+  background-image: url("./Assets/vs-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.opponent,
+.user {
+  height: 85%;
+  width: 95%;
+  border: 1px solid black;
+  gap: 10px;
+}
+
+#imgVs {
+  height: 30%;
+  width: 30%;
+  background-image: url("./Assets/vs-image.png");
+}
+
+.opponent {
+  background-image: url("./Assets/rock.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.user {
+  background-image: url("./Assets/paper-rev.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.userCss {
+  background-image: url("./Assets/cover-image.png");
+  background-size: cover;   /* <-- fits entire image */
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;                /* make sure box has width */
+  height: 100%;               /* or whatever height you want */
+}
+
+.popup {
+  position: absolute;
+  height: 35%;
+  width: 45%;
+  border: 1px solid black;
+  background-color: yellow;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  visibility: hidden;
+}
+
+.rock , .paper , .scissor{
+  height: 80%;
+  width: 90%;
+  border: 1px solid black;
+  margin: 15px;
+  border-radius: 15px;
+}
+
+.rock > div {
+  height: 80%;
+  width: 99%;
+  background-image: url("./Assets/rock.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.rock > h3 {
+  text-align: center;
+}
+
+.paper > div {
+  height: 80%;
+  width: 99%;
+  background-image: url("./Assets/paper.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.paper > h3 {
+  text-align: center;
+}
+
+.scissor > div {
+  height: 80%;
+  width: 99%;
+  background-image: url("./Assets/scissor.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.scissor > h3 {
+  text-align: center;
+}
+
+.show {
+  visibility: visible;
+}
