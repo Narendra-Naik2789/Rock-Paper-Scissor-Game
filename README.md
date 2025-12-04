@@ -30,5 +30,3 @@ Clone the repository:
 ```sh
 git clone https://github.com/<your-username>/Rock-Paper-Scissor-Game.git
 ```
-
-sh version (icons, GIF previews, badges, screenshots), tell me and I’ll upgrade it.
